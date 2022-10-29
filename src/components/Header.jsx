@@ -45,7 +45,7 @@ function Header() {
   return (
     <StyledContainer>
       <StyledHeader>
-        <Link to="/">
+        <Link to="/memoria">
           <StyledLogoContainer>
             <StyledLogo src={logo} alt="Memoria logo" />
             <StyledLogoTitle>Memoria</StyledLogoTitle>

@@ -15,7 +15,7 @@ function Navigation() {
       <StyledUL>
         <li>
           <NavLink
-            to="/"
+            to="/memoria"
             className="nav-link"
             style={({ isActive }) =>
               isActive ? { backgroundColor: 'rgb(230, 230, 230)' } : undefined
@@ -27,7 +27,7 @@ function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/flashcards"
+            to="/memoria/flashcards"
             className="nav-link"
             style={({ isActive }) =>
               isActive ? { backgroundColor: 'rgb(230, 230, 230)' } : undefined

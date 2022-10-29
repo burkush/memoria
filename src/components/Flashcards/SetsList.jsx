@@ -78,12 +78,12 @@ function SetsList({ categoryTitle, sets, setSets, currentSet, setCurrentSet }) {
     <div>
       <h2 className="page-title">{categoryTitle}</h2>
       <Toolbar>
-        <ButtonLink text="Create" to="/flashcards/create" />
+        <ButtonLink text="Create" to="/memoria/flashcards/create" />
       </Toolbar>
       {sets.length ? (
         <FlashcardsFlex>
           {sets.map((set) => (
-            <Link to="/flashcards/learn" key={set.id}>
+            <Link to="/memoria/flashcards/learn" key={set.id}>
               <Flashcard onClick={() => setCurrentSet(set.id)}>
                 <FlashcardTitle>{set.title}</FlashcardTitle>
                 <p style={{ color: '#59656f' }}>{set.set.length} terms</p>

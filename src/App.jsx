@@ -18,9 +18,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/memoria" element={<Home />} />
         <Route
-          path="/flashcards"
+          path="/memoria/flashcards"
           element={
             <Flashcards
               sets={sets}
@@ -31,11 +31,11 @@ function App() {
           }
         />
         <Route
-          path="/flashcards/learn"
+          path="/memoria/flashcards/learn"
           element={<FlashcardSet set={sets[currentSet]} />}
         />
         <Route
-          path="/flashcards/create"
+          path="/memoria/flashcards/create"
           element={<CreateSet sets={sets} setSets={setSets} />}
         />
       </Routes>

@@ -124,7 +124,7 @@ function CreateSet({ sets, setSets }) {
     saveToLocalStorage(decksCopy);
     setSets(JSON.parse(localStorage.getItem('sets')));
 
-    navigate('/flashcards');
+    navigate('/memoria/flashcards');
   }
 
   function addTerm() {
