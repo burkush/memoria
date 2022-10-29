@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memoria/static/css/main.46adc0b0.css",
+    "main.js": "/memoria/static/js/main.1ed46a23.js",
+    "static/media/hero-photo.jpg": "/memoria/static/media/hero-photo.6354a70331eb31e29073.jpg",
+    "static/media/logo.png": "/memoria/static/media/logo.933768dd2e4add8f2d93.png",
+    "index.html": "/memoria/index.html",
+    "main.46adc0b0.css.map": "/memoria/static/css/main.46adc0b0.css.map",
+    "main.1ed46a23.js.map": "/memoria/static/js/main.1ed46a23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46adc0b0.css",
+    "static/js/main.1ed46a23.js"
+  ]
+}
